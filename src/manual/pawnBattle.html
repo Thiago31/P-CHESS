@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>P-CHESS MANUAL</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <body>
+        <h1>Pawn Battle</h1>
+        <p>In pawn battle game, you can choose chessboard size at <strong>
+            options</strong> in <strong>Select Game</strong> dialog window.
+            Options are 4, 5, 6, 7, or 8 columns, for all options chessboard
+            has 8 ranks. Each player receives 4, 5, 6, 7, or 8 pawns, according
+            with number of columns in chessboard. White pawns starts at 2nd
+            rank and black pawns starts at 7th rank.</p>
+        <p class="imageConfigure2">
+            <img src="images/pawnBattle.png" alt="Pawn battle game">
+            <br>Pawn battle start position with 8 columns.
+        </p>
+        <p>Pawn can move only one square in front. If another piece is in
+            front of pawn, this pawn can't move. In first move, pawn can
+            move one or two squares in front. Pawn captures opponent piece
+            at diagonal.</p>
+        <p class="imageConfigure2">
+            <img src="images/pawnMovement3.png" alt="Pawn movement">
+            <br>Pawn movement. Pawn at "e2" can move to "e3" or "e4", it
+            can move one or two squares in first move. Pawn at "c3" can move to
+            "c4". Pawn at "b4" can move to "b5" or capture black pawn in "c5".
+            Pawns at "f4" and "g5" can't move, since their route are blocked
+            by black pawns.
+        </p>
+        <p>Player can win in three different ways:</p>
+        <ol>
+            <li>If player carries one pawn to last rank (8th rank for white
+            and 1st rank for black).</li>
+            <li>If player captures all opponent pawns.</li>
+            <li>If player blocks all opponent pawn movements.</li>
+        </ol>
+        <h2>Win positions examples</h2>
+        <ol>
+            <li>Win position for white: pawn arrives last rank.<br>
+                <img src="images/pawnBattleWin1.png" alt="Win position for white">
+            </li>
+            <li>Win position for black: all opponent pawn are captured.<br>
+                <img src="images/pawnBattleWin2.png" alt="Win position for black">
+            </li>
+            <li>Win positon for black: white player to move, all white pawns
+                blocked.<br>
+                <img src="images/pawnBattleWin3.png" alt="Win position for white">
+            </li>
+        </ol>
+
+        <div class="navigation">
+            <p>
+                <a href="knightPawn.html">
+                    <img src="images/previous.png" alt="previous buttom">
+                </a>
+                <img src="images/spacer.png" alt="spacer">
+                <a href="index.html">
+                    <img src="images/index.png" alt="index buttom">
+                </a>
+            </p>
+        </div>        
+    </body>
+</html>

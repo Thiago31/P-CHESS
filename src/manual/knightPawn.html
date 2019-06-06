@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>P-CHESS MANUAL</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <body>
+        <h1>Knights against Pawns</h1>
+        <p>Knights against pawns is played in 5x5 chessboard, one player has
+            two knights and another has five pawns. In <strong>options</strong> 
+            at <strong>Select Game</strong> dialog window you can define which
+            player has knights. If white player plays with knights, white 
+            knights starts at "b1" and "d1" squares and black pawns starts at
+            5th rank. Otherwise, white pawns starts at 1st rank and black
+            knights starts at "b5" and "d5" squares.</p>
+        <p class="imageConfigure2">
+            <img src="images/knightsPawns.png" alt="Knights against pawns game">
+            <br>Knights against Pawns start position. Knights as white.
+        </p>
+        <p class="imageConfigure2">
+            <img src="images/knightsPawns2.png" alt="Knights against pawns game">
+            <br>Knights against Pawns start position. Knights as black.
+        </p>
+        <p>Knight has special movement that describes 'L' character and is
+            only piece that can jump another pieces. Knight captures a piece
+            if this piece stays in last square of knight movement.</p>
+        <p class="imageConfigure2">
+            <img src="images/knightMovement2.png" alt="Knight movement">
+            <br>Knight movement.
+        </p>
+        <p>Pawn can move only one square in front. If another piece is in
+            front of pawn, this pawn can't move. Pawn captures opponent piece
+            at diagonal.</p>
+        <p class="imageConfigure2">
+            <img src="images/pawnMovement2.png" alt="Pawn movement">
+            <br>Pawn movement. Pawn at "a3" can't move, since knight
+            at "a4" blocks pawn movement. Pawn at "b2" can move to "b3" or
+            capture knight at "c3".
+        </p>
+        <p>Player with knights must capture all opponent pawns or block all
+            pawn movements to win. Player with pawns must carry at least one 
+            pawn to last rank (5th rank if white pawns or 1st rank if black 
+            pawns) and this pawn can't be captured in next opponent move.
+            Player with pawns also win if all opponent knights are captured.</p>
+        <h2>Win positions examples</h2>
+        <ol>
+            <li>Win position for white: pawn arrives last rank and black player
+                can't capture it.<br>
+                <img src="images/knightsPawnsWin1.png" alt="Win position for white">
+            </li>
+            <li>Win position for black: all pawn are captured.<br>
+                <img src="images/knightsPawnsWin2.png" alt="Win position for black">
+            </li>
+            <li>Win positon for white: black player to move, all black pawns
+                blocked.<br>
+                <img src="images/knightsPawnsWin3.png" alt="Win position for white">
+            </li>
+            <li>Win position for black: all knights are captured.<br>
+                <img src="images/knightsPawnsWin4.png" alt="Win position for black">
+            </li>
+        </ol>
+        
+        <div class="navigation">
+            <p>
+                <a href="bishopPawn.html">
+                    <img src="images/previous.png" alt="previous buttom">
+                </a>
+                <img src="images/spacer.png" alt="spacer">
+                <a href="index.html">
+                    <img src="images/index.png" alt="index buttom">
+                </a>
+                <img src="images/spacer.png" alt="spacer">
+                <a href="pawnBattle.html">
+                    <img src="images/next.png" alt="next buttom">
+                </a>
+            </p>
+        </div>        
+    </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>P-CHESS MANUAL</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <body>
+        <h1>Killer Queen</h1>
+        <p>Killer queen is played in 8x8 chessboard, each player has a queen
+            and a set of special pieces called "diamonds", diamonds can't
+            move. You can choose how many diamonds each player owns in 
+            <strong>options</strong> at <strong>Select Game</strong> dialog
+            window. Options are 8, 12, or 16 diamonds. White queen starts at
+            "a1" square and black queen starts at "h8" square.</p>
+        <p class="imageConfigure2">
+            <img src="images/killerQueen.png" alt="Killer queen game">
+            <br>Killer queen start position with 8 diamonds.
+        </p>
+        <p>Queen can move any number of squares in rank, column, or diagonal,
+            and captures in same way. Queen can't jump another pieces.</p>
+        <p class="imageConfigure2">
+            <img src="images/queenMovement.png" alt="Queen movement">
+            <br>Queen movement.
+        </p>
+        <p>To win the game, player must capture all opponent diamonds, player
+            also wins if capturing opponent queen. After a player to capture
+            all opponent diamonds, game ends, and in this case, no queen can
+            capture opponent queen.</p>
+        <h2>Win positions examples</h2>
+        <ol>
+            <li>Win position for white: white queen captured all opponent 
+                diamonds.<br>
+                <img src="images/killerQueenWin1.png" alt="Win position for white">
+            </li>
+            <li>Win position for black: black queen captured all opponent 
+                diamonds. This position is end game and white queen can't
+                capture black queen.<br>
+                <img src="images/killerQueenWin2.png" alt="Win position for black">
+            </li>
+            <li>Win position for white: white queen captured black queen. 
+                Note that both players have diamonds in chessboard.<br>
+                <img src="images/killerQueenWin3.png" alt="Win position for white">
+            </li>
+        </ol>
+        <div class="navigation">
+            <p>
+                <a href="kingDuel.html">
+                    <img src="images/previous.png" alt="previous buttom">
+                </a>
+                <img src="images/spacer.png" alt="spacer">
+                <a href="index.html">
+                    <img src="images/index.png" alt="index buttom">
+                </a>
+                <img src="images/spacer.png" alt="spacer">
+                <a href="killerRook.html">
+                    <img src="images/next.png" alt="next buttom">
+                </a>
+            </p>
+        </div>
+    </body>
+</html>

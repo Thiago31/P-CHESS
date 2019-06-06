@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>P-CHESS MANUAL</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <body>
+        <h1>King Duel</h1>
+        <p>King duel is played in 8x8 chessboard, each player owns only a king.
+            White king starts in 1st rank and black king starts in 8th rank.
+            Starting column is randomly chosen and both kings starts at same
+            column. As example, if it is chosen column "c", white king starts
+            at "c1" square and black king starts at "c8" square.</p>
+        <p class="imageConfigure2">
+            <img src="images/kingDuel.png" alt="King duel game">
+            <br>King Duel start position at column "c".
+        </p>
+        <p>King can move only one square in rank, column or diagonal, two kings
+            can't stay adjacent squares, it must have at least one square between
+            them.</p>
+        <p class="imageConfigure2">
+            <img src="images/kingMovement.png" alt="King movement">
+            <br>King movement.
+        </p>
+        <p class="imageConfigure2">
+            <img src="images/kingMovement2.png" alt="King movement">
+            <br>King movement. In this position, white king can't move to "d5",
+            "e5", or "f5", since black king attacks these squares.
+        </p>
+        <p>White king must arrive 8th rank, and black king must avoid white
+            king arriving 8th rank. You can configure max number of movements
+            in <strong>options</strong> at <strong>Select Game</strong>
+            dialog window, options are 10, 20, 30, or 40 max number of 
+            movements. If white king arrives 8th rank, white player wins, if
+            white king doesn't arrives 8th rank after max number of movements,
+            black player wins.</p>
+        <h2>Win positions examples</h2>
+        <ol>
+            <li>Win position for white: white king arrives 8th rank.<br>
+                <img src="images/kingDuelWin1.png" alt="Win position for white">
+            </li>
+            <li>Win position for black: black king blocks white king movements.
+                <br><img src="images/kingDuelWin2.png" alt="Win position for black">
+            </li>
+        </ol>
+        <div class="navigation">
+            <p>
+                <a href="configuring.html">
+                    <img src="images/previous.png" alt="previous buttom">
+                </a>
+                <img src="images/spacer.png" alt="spacer">
+                <a href="index.html">
+                    <img src="images/index.png" alt="index buttom">
+                </a>
+                <img src="images/spacer.png" alt="spacer">
+                <a href="killerQueen.html">
+                    <img src="images/next.png" alt="next buttom">
+                </a>
+            </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>P-CHESS MANUAL</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <body>
+        <h1>Bishops against Pawns</h1>
+        <p>Bishops against pawns is played in 5x5 chessboard, one player has
+            two bishops and another has five pawns. In <strong>options</strong> 
+            at <strong>Select Game</strong> dialog window you can define which
+            player has bishops. If white player plays with bishops, white 
+            bishops starts at "b1" and "c1" squares and black pawns starts at
+            5th rank. Otherwise, white pawns starts at 1st rank and black
+            bishops starts at "b5" and "c5" squares.</p>
+        <p class="imageConfigure2">
+            <img src="images/bishopsPawns.png" alt="Bishops against pawns game">
+            <br>Bishops against Pawns start position. Bishops as white.
+        </p>
+        <p class="imageConfigure2">
+            <img src="images/bishopsPawns2.png" alt="Bishops against pawns game">
+            <br>Bishops against Pawns start position. Bishops as black.
+        </p>
+        <p>Bishop can move any number of squares in diagonal, 
+            and captures in same way. Bishop can't jump another pieces.</p>
+        <p class="imageConfigure2">
+            <img src="images/bishopMovement.png" alt="Bishop movement">
+            <br>Bishop movement.        
+        </p>
+        <p>Pawn can move only one square in front. If another piece is in
+            front of pawn, this pawn can't move. Pawn captures opponent piece
+            at diagonal.</p>
+        <p class="imageConfigure2">
+            <img src="images/pawnMovement.png" alt="Pawn movement">
+            <br>Pawn movement. Pawn at "a2" can't move, since bishop
+            at "a3" blocks pawn movement. Pawn at "c2" can move to "c3" or
+            capture bishop at "d3".
+        </p>
+        <p>Player with bishops must capture all opponent pawns or block all
+            pawn movements to win. Player with pawns must carry at least one 
+            pawn to last rank (5th rank if white pawns or 1st rank if black 
+            pawns) and this pawn can't be captured in next opponent move.
+            Player with pawns also win if all opponent bishops are captured.</p>
+        <h2>Win positions examples</h2>
+        <ol>
+            <li>Win position for white: pawn arrives last rank and black player
+                can't capture it.<br>
+                <img src="images/bishopsPawnsWin1.png" alt="Win position for white">
+            </li>
+            <li>Win position for black: all pawn are captured.<br>
+                <img src="images/bishopsPawnsWin2.png" alt="Win position for black">
+            </li>
+            <li>Win positon for white: black player to move, all black pawns
+                blocked.<br>
+                <img src="images/bishopsPawnsWin3.png" alt="Win position for white">
+            </li>
+            <li>Win position for black: all bishops are captured.<br>
+                <img src="images/bishopsPawnsWin4.png" alt="Win position for black">
+            </li>
+        </ol>
+        <div class="navigation">
+            <p>
+                <a href="killerKnight.html">
+                    <img src="images/previous.png" alt="previous buttom">
+                </a>
+                <img src="images/spacer.png" alt="spacer">
+                <a href="index.html">
+                    <img src="images/index.png" alt="index buttom">
+                </a>
+                <img src="images/spacer.png" alt="spacer">
+                <a href="knightPawn.html">
+                    <img src="images/next.png" alt="next buttom">
+                </a>
+            </p>
+        </div>        
+    </body>
+</html>
